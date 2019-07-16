@@ -1,0 +1,9 @@
+@using viewmodel.Models
+@model int[]
+<h4>Here are some numbers</h4>
+<div class="numbers">
+    @foreach (var number in Model)
+    {
+        <p>@number</p>
+    }
+</div>
